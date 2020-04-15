@@ -1,0 +1,23 @@
+{
+  "name": "@flowbuild/decision-template",
+  "version": "0.0.0",
+  "description": "workflow template to start your project",
+  "main": "index.js",
+  "keywords": [
+    "workflow",
+    "flowbuild",
+    "node"
+  ],
+  "author": "fdte-dsd",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@flowbuild/decision": "^1.0.0",
+    "@flowbuild/decision-engine": "^1.0.0"
+  }
+}
